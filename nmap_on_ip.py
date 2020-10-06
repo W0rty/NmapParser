@@ -107,6 +107,7 @@ def nmap(allRanges):
 #This method will be used to recover ips from a file and write 
 #result of nmap method in a file
 def main():
+    print("NOTE: Use this tool at your own risk and in the legality of your country, I will clear myself of any illegal act carried out with this tool.")
     allIps = []
     with open('ip_to_scan.txt','r') as lines:
         for line in lines:
