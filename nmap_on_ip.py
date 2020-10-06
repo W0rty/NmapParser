@@ -80,7 +80,7 @@ def nmap(allRanges):
                     portsByIp["string%s"%str(randomIpToScan)].remove(port)
                     print("Nmap on "+str(ip).strip()+":"+str(port))
                     if(port==80 or port==8080 or port==443):
-                        res = os.popen('nmap -p' + str(port) + " --script http-methods --script-args http.useragent='Orange-Business-Services_Cesson_Sévigné_TEST_NMAP' " + str(ip)).read()
+                        res = os.popen('nmap -p' + str(port) + " --script http-methods --script-args http.useragent='Firefox(41.0)' " + str(ip)).read()
                     else:
                         res = os.popen('nmap -p' + str(port) +" "+ str(ip)).read()
                     if("closed" not in res and "down" not in res):
