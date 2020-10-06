@@ -20,3 +20,4 @@ Choosen ports are most common one on a server (ssh,ftp,http,https,vpn,...)
 - Launch script parserResult.py (even if the script nmap_on_ip.py is still running, you will have your first results!)
 - ENJOY :)
 
+NOTE : I am not responsible if this tool is used for malicious purposes.
