@@ -12,3 +12,11 @@ Many features are included :
 
 The file nmap_on_ip.py will nmap on ranges randomly and on random ports, to avoid being spotted.
 Choosen ports are most common one on a server (ssh,ftp,http,https,vpn,...)
+
+# How to use it ?
+- Read INSTALL.txt and follow instructions.
+- Create a file ip_to_scan.txt with ips you have to scan! (with a \n between ips)
+- Launch script nmap_on_ip.py
+- Launch script parserResult.py (even if the script nmap_on_ip.py is still running, you will have your first results!)
+- ENJOY :)
+
