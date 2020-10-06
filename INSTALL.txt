@@ -1,0 +1,10 @@
+To use this parser, please follow these instructions :
+- pip3 install -r requirements.txt
+- if you don't have a mysql server install one:
+    - for windows : xampp
+    - for linux : sudo apt install mysql-server
+- be sure to have whois, nmap commands on your system
+- create a database called nmap
+- import the .sql file in it
+- at the beginning of the script, change the user and password by yours
+- ENJOY :)
