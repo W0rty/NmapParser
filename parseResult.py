@@ -713,6 +713,7 @@ def main():
     else:
         forClear = "cls"
         os.system(forClear)
+    print("NOTE: Use this tool at your own risk and in the legality of your country, I will clear myself of any illegal act carried out with this tool.")    
     print("Hi! Welcome on the nmap results parser!  \nTo see which commands are available, enter 'help'.")
     while True:
         choice = input(">> ")
