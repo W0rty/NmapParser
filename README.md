@@ -8,3 +8,7 @@ Many features are included :
 - Add your configuration (specific port, specific state(open,filtered), specific country)
 - Parse result in the terminal
 - ...
+
+
+The file nmap_on_ip.py will nmap on ranges randomly and on random ports, to avoid being spotted.
+Choosen ports are most common one on a server (ssh,ftp,http,https,vpn,...)
